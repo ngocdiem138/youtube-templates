@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/font/Roboto/Roboto-Light.ttf');
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' !important;
+    font-size: 15px;
+}
+
+.w-40px {
+    width: 40px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-40px {
+    height: 40px;
+}
+
+.lh-40px {
+    line-height: 40px;
+}
+
+.cursor-p {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(161, 161, 161);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #949494;
+}

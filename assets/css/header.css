@@ -1,0 +1,185 @@
+header {
+    height: 56px;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/* start */
+
+#start {
+    padding-left: 20px;
+}
+
+#menu-bar i {
+    font-size: 130%;
+}
+
+#logo {
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+/* menu bar behavior */
+#menu-behavior {
+    width: 240px;
+    height: calc(100vh - 56px);
+    top: 56px;
+    padding-right: 10px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1;
+}
+
+#profile hr,
+#menu-behavior hr {
+    opacity: 0.3;
+}
+
+#profile .session,
+#menu-behavior .session {
+    padding: 10px 0;
+}
+
+#profile .session a,
+#menu-behavior .session a {
+    color: #030303;
+    font-size: 90%;
+}
+
+#menu-behavior .session > a {
+    padding: 0 20px 0 30px;
+}
+
+#profile .session a i,
+#menu-behavior .session a i {
+    font-size: 18px;
+    width: 40px;
+    font-weight: 500;
+}
+
+#profile .session span,
+#profile .session p,
+#profile .session-info a,
+#menu-behavior .session p,
+#menu-behavior .session-info a,
+#menu-behavior .session a span {
+    font-weight: 600;
+}
+
+#profile .session-info {
+    display: flex;
+}
+
+#menu-behavior .session p {
+    color: #606060;
+    padding-left: 25px;
+    font-size: 90%;
+}
+
+#menu-behavior .session figure img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#menu-behavior .session-info > div {
+    padding-left: 30px;
+}
+
+#menu-behavior .session-info a {
+    font-size: 85%;
+}
+
+#menu-behavior .copy-right {
+    padding: 16px 0;
+    font-size: 70%;
+    color: #646464;
+}
+
+#profile .session a:hover,
+#menu-behavior .session > a:hover,
+#menu-behavior .active {
+    background-color: #eee;
+}
+
+/* center */
+
+#center input {
+    width: 572px;
+    outline: none;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px #ccc;
+}
+
+#center .btn-voice,
+#center .btn-search {
+    background-color: #f8f8f8;
+}
+
+#center .btn-search {
+    border: 1px solid #d3d3d3;
+    width: 64px;
+}
+
+#center .btn-voice {
+    margin-left: 15px;
+}
+
+/* end */
+
+#end {
+    padding-right: 20px;
+}
+
+#end > i,
+#end > img {
+    font-size: 130%;
+    margin: 0 5px;
+}
+
+#end > .login {
+    border: 2px solid #2156ff;
+    padding: 0 10px;
+    font-weight: 600;
+    color: #2156ff;
+}
+
+/* profile behavior */
+
+#profile {
+    right: 30px;
+    width: 298px;
+    top: 56px;
+    box-shadow: 0 0 10px rgba(202, 202, 202, 0.9);
+    display: none;
+}
+
+#profile .session > a {
+    padding-left: 20px;
+}
+
+#profile .session-info figure {
+    width: 60px;
+}
+
+#profile .session-info figure img {
+    margin-left: 10px;
+}
+
+#profile .session-info a {
+    color: #065fd4;
+}
+
+#profile .session-info a:hover {
+    background-color: transparent;
+}
+
+#profile .arrow-right {
+    float: right;
+    clear: right;
+    line-height: 40px;
+}
+
+/* End: header */

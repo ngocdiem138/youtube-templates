@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1024px) {
+
+    #center {
+        flex-basis: 70%;
+    }
+
+    #center input {
+        width: 100%;
+    }
+
+    #center .btn-voice {
+        background: transparent;
+    }
+}
+
+@media only screen and (max-width: 614px) {
+    #center input,
+    #center .btn-search,
+    #center .btn-voice {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #end i {
+        display: none;
+    }
+}

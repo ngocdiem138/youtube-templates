@@ -1,8 +1,8 @@
-
 #container {
     display: flex;
     background-color: #f9f9f9;
     padding: 24px 100px 0 100px;
+    justify-content: space-between;
 }
 
 /* begin: primary */
@@ -15,8 +15,12 @@
     opacity: 0.3;
 }
 
+#primary iframe {
+    width: 100%;
+}
+
 #primary .video .hashtag {
-    padding-top: 5px;
+    padding-top: 15px;
     color: #065fd4;
     font-size: 90%;
 }
@@ -74,11 +78,11 @@
 
 #primary .content .info .profile div span {
     color: #606060;
-    font-size: 70%;
-    padding-top: 5px;
+    font-size: 80%;
+    padding-top: 8px;
 }
 
-#primary .content .info input {
+#primary .content .info .btn-sub {
     background-color: #cc0000;
     border: none;
     color: #fff;
@@ -105,7 +109,7 @@
 
 #primary .comments,
 #primary .comments > div {
-    margin-top: 20px;    
+    margin-top: 20px;
 }
 
 #primary .comments .heading {
@@ -244,6 +248,7 @@
 /* begin: secondary */
 
 #secondary {
+    margin-top: -10px;
     min-width: 426px;
     max-width: 450px;
 }

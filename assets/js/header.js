@@ -30,7 +30,6 @@ const toggleProfile = function (isDisplay) {
 };
 
 const disableItems = function() {
-    const container = $('#container');
     const menuBehavior = $('#menu-behavior');
     const profile = $('#profile');
     if (menuBehavior.style.display === 'block') {
